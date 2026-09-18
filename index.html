@@ -1,8 +1,56 @@
 <!doctype html>
 <html>
  <head>
+  <title></title>
  </head>
  <body>
+  <h1> Data Diri </h1>
+ <form action="terima.html">
+ 
+ <fieldset id="datadiri">
+	<label for="nama">Nama</label>
+	<input type="text" id="nama" name="nama" required placeholder="John Doe"><br>
+	
+	<label for="namax">Nama Panggilan</label>
+	<input type="text" id="namax" name="namax" placeholder="Mas John"><br>
+	 
+	<label for="nrp">Nomer Reg Mhs</label>
+	<input type="text" id="nrp" name="nrp" required placeholder="123456789"><br>
+	
+	<label for="pwd">Kata Kunci</label>
+	<input type="password" id="pwd" name="pwd" required><br>
+	 
+	<label for="surel">Alamat Email</label>
+	<input type="email" id="surel" name="surel" required placeholder="nama@domain.com"><br>
+	
+	<label for="ultah">Tanggal Lahir</label>
+	<input type="date" id="ultah" name="ultah" required><br>
+	
+	<label for="telp">Nomor HP</label>
+	<input type="tel" id="telp" name="nohp" required placeholder="+62 8123456"><br>
+</fieldset>
+	
+	<br>
+	
+	<label for="gender">Jenis Kelamin</label>
+	<fieldset id="gender">
+		<input type="radio" name="gender" value="L">Cowok</radio><br>
+		<input type="radio" name="gender" value="P">Cewek</radio><br>
+		<input type="radio" name="gender" Value="X" checked>Lainnya</radio><br>
+	</fieldset>
+	
+	<label for="kemapuan">Bisa Apa Saja?</label>
+	<fieldset id="kemampuan">
+	<input type="checkbox" name="pakar" value="PS">Bisa Photoshop<br>
+	<input type="checkbox" name="pakar" value="AI">Mahir AI yang Adobe itu<br>
+	</fieldset>
+	
+	<br>
+	<input type="submit">
+ </form>
+ 
+ 
+ 
  </body>
   
 </html>
